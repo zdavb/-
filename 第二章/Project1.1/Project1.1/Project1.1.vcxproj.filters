@@ -18,25 +18,5 @@
     <ClCompile Include="源.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Problem12.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Problem16.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Problem19.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Problem12.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Problem16.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="Problem19.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
