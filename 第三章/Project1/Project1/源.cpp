@@ -2,6 +2,7 @@
 #include "problem1.h"
 #include "problem2.h"
 #include "problem4.h"
+#include "problem6.h"
 using namespace std;
 
 void test1() {
@@ -63,9 +64,36 @@ void test4(void) {
 	test44(getIntersect);
 	test44(getUnion);
 }
+
+void test5(void) {
+	const int size = 10;
+	//生成两个随机的序列
+	QuanticNode* left = createQuanticList(10);
+	QuanticNode* right = createQuanticList(5);
+
+	cout << "第一个list的原始数据";
+	printQuanticList(left);
+	cout << endl <<"第二个list的原始数据";
+	printQuanticList(right);
+
+	//return;
+	sortDSC(left,10);
+	sortDSC(right,5);
+
+	cout <<endl<< "第一个list加工后的数据";
+	printQuanticList(left);
+	cout <<endl<< "第二个list加工后的数据";
+	printQuanticList(right);
+
+	cout <<endl<< "两个list相加后的数据";
+	QuanticNode* head = addQuanticList(left, right);
+	printQuanticList(head);
+	cout << endl;
+}
 int main() {
 	//test1();
 	//test2();
-	test4();
+	//test4();
+	test5();
 	system("pause");
-}
+} 

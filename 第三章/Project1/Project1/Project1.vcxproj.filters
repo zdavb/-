@@ -27,6 +27,9 @@
     <ClCompile Include="problem4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="problem6.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="problem1.h">
@@ -36,6 +39,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="problem4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="problem6.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
