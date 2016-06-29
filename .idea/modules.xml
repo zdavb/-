@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/数据结构与算法分析.iml" filepath="$PROJECT_DIR$/数据结构与算法分析.iml" />
+      <module fileurl="file://$PROJECT_DIR$/第六章/第六章.iml" filepath="$PROJECT_DIR$/第六章/第六章.iml" />
     </modules>
   </component>
 </project>
